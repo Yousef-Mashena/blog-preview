@@ -27,7 +27,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #f4d04e;
+  background-color: var(--yellow);
 }
 
 img {
@@ -38,10 +38,10 @@ img {
 main {
   max-width: 24rem;
   margin: auto;
-  background-color: #fff;
+  background-color: var(--white);
   padding: 1.5rem;
   border-radius: 1.25rem;
-  box-shadow: 8px 8px black;
+  box-shadow: 8px 8px var(--gray-950);
   border: 1px solid var(--gray-950);
 }
 
@@ -51,7 +51,7 @@ main {
 
 .category-highlight {
   font: var(--text-preset-3-bold);
-  background-color: #f4d04e;
+  background-color: var(--yellow);
   max-width: 5.125rem;
   text-align: center;
   padding: 0.25rem 0.75rem;
@@ -70,10 +70,14 @@ p:has(time) {
   font: var(--text-preset-3);
 }
 
-h3 a {
+.title-link {
   font: var(--text-preset-1);
   text-decoration: none;
   color: var(--gray-950);
+}
+
+.title-link:hover {
+  color: var(--yellow);
 }
 
 .description {
