@@ -1,15 +1,15 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('./fonts/Figtree-VariableFont_wght.ttf'),
+    url('./fonts/Figtree-Italic-VariableFont_wght.ttf'),
+    url('./fonts/static/Figtree-SemiBold.ttf'),
+    url('./fonts/static/Figtree-ExtraBold.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: 'Figtree';
-  src: url('/assets/fonts/Figtree-VariableFont_wght.ttf'),
-    url('/assets/fonts/Figtree-Italic-VariableFont_wght.ttf'),
-    url('/assets/fonts/static/Figtree-SemiBold.ttf'),
-    url('/assets/fonts/static/Figtree-ExtraBold.ttf');
 }
 
 :root {
