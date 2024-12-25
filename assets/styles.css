@@ -69,7 +69,7 @@ p:has(time) {
   font: var(--text-preset-3);
 }
 
-h1 a {
+h2 a {
   font: var(--text-preset-1);
   text-decoration: none;
   color: var(--gray-950);
