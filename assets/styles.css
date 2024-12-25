@@ -82,10 +82,13 @@ h3 a {
 }
 
 .author {
-  font: var(--text-preset-3-bold);
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.author h2 {
+  font: var(--text-preset-3-bold);
 }
 
 .author > img {
